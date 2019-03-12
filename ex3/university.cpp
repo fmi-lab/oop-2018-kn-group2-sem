@@ -32,6 +32,8 @@ public:
   // - int - колко отворени места са отворени
   // - char* - цялото изречение с грешката -> bad design & implementation
 
+
+
   void openNewYearStudentPositions(int n) {
     openStudentPositions += n;
     // setOpenStudentPositions(openStudentPositions + n);
