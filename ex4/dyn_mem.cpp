@@ -15,7 +15,7 @@ public:
   }
 
   // a1 = a2
-  DynArray operator=(const DynArray& other) {
+  DynArray& operator=(const DynArray& other) {
     if (this != &other) {
       deleteObject();
       copy(other);
