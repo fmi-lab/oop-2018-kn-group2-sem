@@ -10,7 +10,9 @@ using namespace std;
 
 class Test {
 public:
-	void add(Question* q);
+	Test(ListOfQuestions);
+	 
+	// void add(Question* q);
 	void take(ostream & out, istream & in);
 	~Test();
 private:
